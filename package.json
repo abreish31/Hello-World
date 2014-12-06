@@ -1,0 +1,25 @@
+{
+	"devDependencies": {
+    "express": "3.1.0",
+    "mocha": "1.19.0",
+    "should": "3.3.1"
+  },
+  
+  "testling":{
+  	"harness": "mocha-bdd",
+  	"files":"test/*.js",
+  	"browsers":[
+  	"ie/7..latest",
+	"chrome/latest",
+	"firfox/latest",
+	"safari/latest",
+	"iphone/latest",
+	"android/latest"
+  	]
+  },
+
+  "scripts":{
+  	"test":"./node_modules/.bin/mocha --reporter spec"
+
+  }
+}
