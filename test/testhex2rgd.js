@@ -1,5 +1,5 @@
-var expect = require("C:\Users\Abraham Seifu Gashaw\node_modules\chai").expect
-var hex2rgb = require ("../node_modules/Hello-World/hex2rgb")
+var expect = require("chai").expect
+var hex2rgb = require ("hex2rgb")
 
 describe ("hex to rgb converstion", function(){
 
